@@ -1,0 +1,88 @@
+{
+	"apiVersion": 2,
+	"name": "fpb/food-product",
+	"version": "0.1.0",
+	"title": "Food Product",
+	"category": "common",
+	"description": "Shows the food product",
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"uniqueId": {
+			"type": "string"
+		},
+		"productName": {
+			"type": "string"
+		},
+		"productNameSize": {
+			"type": "number",
+			"default": 24
+		},
+		"productNameColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"productNameBg": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"labelsColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"labelsBg": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"labelsSize": {
+			"type": "number",
+			"default": 14
+		},
+		"nutrientsLabel": {
+			"type": "string",
+			"default": "Nutrients"
+		},
+		"measurementLabel": {
+			"type": "string",
+			"default": "Measurement"
+		},
+		"priceLabel": {
+			"type": "string",
+			"default": "Check Prices"
+		},
+		"url": {
+			"type": "string"
+		},
+		"alt": {
+			"type": "string"
+		},
+		"id": {
+			"type": "number"
+		},
+		"showDescription": {
+			"type": "boolean",
+			"default": true
+		},
+		"description": {
+			"type": "string"
+		},
+		"descriptionBorder": {
+			"type": "object",
+			"default": {
+				"width": "1px",
+				"style": "solid",
+				"color": "#000000"
+			}
+		},
+		"descriptionBg": {
+			"type": "string",
+			"default": "#ffffff"
+		}
+	},
+	"textdomain": "food-product-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

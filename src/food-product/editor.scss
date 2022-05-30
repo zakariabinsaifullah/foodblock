@@ -1,0 +1,46 @@
+/*
+* Style Works for Editor Only
+*/
+.fpb__image_preview {
+	position: relative;
+}
+
+.fpb__edit {
+	position: absolute;
+	top: -30px;
+	right: 0;
+	color: #6a1616;
+	cursor: pointer;
+}
+
+.fpb__label {
+	line-height: 1 !important;
+	margin: 15px 0 !important;
+}
+
+.wp-block-fpb-food-product {
+	.block-editor-block-list__block .block-list-appender {
+		position: relative !important;
+	}
+	.fpb__inner_items {
+		display: block;
+		.block-editor-block-list__layout {
+			display: flex;
+			align-items: stretch;
+			flex-wrap: nowrap;
+			[data-type="fpb/nutrient"] {
+				margin: 0 !important;
+				padding: 0 !important;
+				width: 100% !important;
+				border-left: 1px solid #000;
+			}
+		}
+	}
+	.wp-block-fpb-nutrient {
+		border: none !important;
+	}
+	p.fpb__description_content {
+		padding: 15px !important;
+		margin: 0 !important;
+	}
+}
